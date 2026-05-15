@@ -5,14 +5,15 @@
 - **Download Price**: Free
 - **IAP Type**: Non-Consumable (One-Time Purchase)
 - **Subscription**: None
-- **Rationale**: Student audience prefers one-time purchase over subscriptions. No ongoing API/server costs justify subscription pricing. $4.99 one-time is perceived as exceptional value vs. I Spy Text's $5.99/month.
+- **Rationale**: Student audience prefers one-time purchase over subscriptions. No ongoing API/server costs justify subscription pricing. $4.99 one-time is perceived as exceptional value vs. I Spy Text's $5.99/month subscription.
 
 ## Free Tier Features
 - Real-time camera text search
+- Photo library text search
 - Multi-word phrase matching
 - Yellow highlight overlay
 - Flashlight toggle
-- 3 free searches per day (loss aversion trigger)
+- 5 free searches per day (shared across Camera & Photo modes, loss aversion trigger)
 
 ## Pro Upgrade Features (One-Time $4.99)
 - Unlimited searches (no daily limit)
@@ -49,7 +50,7 @@
 
 ## Apple IAP Compliance Checklist
 - [x] Non-consumable product type selected
-- [x] Restore Purchases functionality to be implemented
+- [x] Restore Purchases functionality implemented
 - [x] No dark patterns in paywall UI
 - [x] Clear pricing displayed before purchase
 - [x] No auto-renewal (one-time purchase)
